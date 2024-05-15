@@ -16,7 +16,7 @@
 #pragma once
 
 #include <kdbindings/signal.h>
-#include <mosquitto.h>
+#include "mosquitto.h"
 #include <optional>
 #include <string>
 #include <string_view>

@@ -44,3 +44,7 @@ kdutils/
 
 # CMake build directory
 build
+
+# CLion
+.idea
+cmake-build-*

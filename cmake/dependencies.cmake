@@ -8,7 +8,7 @@
 find_package(PkgConfig)
 
 if (UNIX AND PKG_CONFIG_FOUND)
-    pkg_check_modules(Mosquitto IMPORTED_TARGET libmosquitto REQUIRED)
+    pkg_check_modules(Mosquitto IMPORTED_TARGET mosquitto REQUIRED)
 endif()
 
 if (Mosquitto_FOUND AND BUILD_INTEGRATION_MQTT)
